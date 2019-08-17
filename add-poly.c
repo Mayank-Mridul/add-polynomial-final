@@ -109,7 +109,8 @@ void display(struct node *star){
 	printf("\n");
 }
 
-
+//This function helps to add two POLYNOMIAL
+//NOT WORKING IF THE LENGTH OF SECOND PIOLYNOMIAL IS GREATER THAN THE FIRST POLYNOMIAL
 
 struct node* add_poly(struct node *h1, struct node *h2, struct node *h3){
 struct node *ptr, *t1, *t2, *prev;
